@@ -22,5 +22,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation ('com.github.bumptech.glide:glide:4.6.1'){ exclude group: 'com.android.support'}
-    implementation project(':takephoto_library')
+    //implementation project(':takephoto_library')
+    implementation ('org.devio.takephoto:takephoto_library:4.1.0'){ exclude group: 'com.android.support'}
 }

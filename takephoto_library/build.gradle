@@ -68,6 +68,26 @@ install{
                         url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                     }
                 }
+                dependencies{
+                    dependency{
+                        groupId 'com.soundcloud.android.crop'
+                        artifactId 'lib_crop'
+                        version '1.0.0'
+                        scope 'api'
+                    }
+                    dependency{
+                        groupId 'com.darsh.multipleimageselect'
+                        artifactId 'multipleimageselect'
+                        version '1.0.5'
+                        scope 'api'
+                    }
+                    dependency{
+                        groupId 'me.shaohui.advancedluban'
+                        artifactId 'library'
+                        version '1.3.2'
+                        scope 'api'
+                    }
+                }
                 developers{
                     developer{
                         id 'liyuhao'
